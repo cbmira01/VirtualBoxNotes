@@ -50,3 +50,5 @@ Debian administration notes
 	sudo systemctl start ssh
   
 Clone and run PHP projects from Github
+- Simple LAMP Web Application https://github.com/qyjohn/simple-lamp
+- Neighborhood Web Site https://github.com/cbmira01/NWS
