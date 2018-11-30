@@ -39,8 +39,8 @@ Bitnami LAMP stack VM instructions
 - sudo shutdown -h now
 
 Login to LAMP stack
-- create a Putty connection to the VM
-- create WinSCP connections to the VM, for file transfer and tunnel
+- create Putty connections to the VM for console and tunnel
+- create a WinSCP connection to the VM for file transfer
 - check all stack services are available: sudo /opt/bitnami/ctlscript.sh status
 
 Debian administration notes
