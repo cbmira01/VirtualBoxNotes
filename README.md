@@ -30,9 +30,9 @@ Bitnami LAMP stack VM instructions
 - check guest: video memory >= 24 MB
 - check guest: network card set to host-only
 - boot the guest (look for double-splash)
+- note application password on the splash screen
 - login to guest (bitnami/bitnami)
 - note guest's IP address (sudo ifconfig)
-- note application password     (eg, jH1UTlUuzIn3)
 - set Bitnami user password if desired
 - enable sshd on Bitnami guest
 - sudo reboot
@@ -40,7 +40,7 @@ Bitnami LAMP stack VM instructions
 
 Login to LAMP stack
 - create a Putty connection to the VM
-- create a WinSCP connections to the VM, for file transfer and tunnel
+- create WinSCP connections to the VM, for file transfer and tunnel
 - check all stack services are available: sudo /opt/bitnami/ctlscript.sh status
 
 Debian administration notes
