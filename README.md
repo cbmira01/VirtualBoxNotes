@@ -44,7 +44,7 @@ Login to LAMP stack
 - check all stack services are available: sudo /opt/bitnami/ctlscript.sh status
 
 Debian administration notes
-- enable ssh daemon
+- enable ssh daemon  
 	sudo rm -f /etc/ssh/sshd_not_to_be_run  
 	sudo systemctl enable ssh  
 	sudo systemctl start ssh  
