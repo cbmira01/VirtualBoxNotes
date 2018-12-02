@@ -45,9 +45,9 @@ Login to LAMP stack
 
 Debian administration notes
 - enable ssh daemon
-	sudo rm -f /etc/ssh/sshd_not_to_be_run
-	sudo systemctl enable ssh
-	sudo systemctl start ssh
+	sudo rm -f /etc/ssh/sshd_not_to_be_run  
+	sudo systemctl enable ssh  
+	sudo systemctl start ssh  
   
 Clone and run PHP projects from Github
 - Simple LAMP Web Application https://github.com/qyjohn/simple-lamp
